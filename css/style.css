@@ -1,0 +1,122 @@
+
+body{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  background-image:url(../images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 5px 60px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.content, .amt, .btn2{
+  color: hsl(220, 15%, 55%);
+  overflow: hidden;
+}
+  
+.img{
+  width: 450px;
+  height: 220px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 700;
+ color: hsl(223, 47%, 23%); 
+}
+
+.content{
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+.annual, .amt{
+  font-size: 16px;
+  margin: 0;
+  margin-left: 2rem;
+  margin-top: 4px;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 400px;
+  height: 70px;
+  background-color: rgba(214, 217, 229, 0.4);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.annual{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.amt{
+  color: hsl(224, 23%, 55%);
+  opacity: 0.7;
+}
+.icon{
+  padding-left: 15px;
+  width: 48px;
+  height: 48px;
+}
+
+.together{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+a {
+align-self: center;
+padding-right: 20px;
+color: darkblue;
+font-size: 16px;
+}
+
+.btn1{
+  background-color: hsl(245, 95%, 49%);
+  box-shadow: 0 20px 55px 15px hsl(268, 42%, 85%);
+  color: white;
+  width: 400px;
+  padding: 10px;
+  border-style: initial;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.btn2{
+  font-weight: 700;
+  font-size: 16px;
+  opacity: 0.9;
+  margin: 2.5rem 0;
+  width: 400px;
+  padding: 10px;
+  border-style: hidden;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+footer{
+  text-align: center;
+  font-size: 16px;
+}
